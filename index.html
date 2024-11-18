@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meu Will Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Will</h1>
+        <div class="saldo">
+            <p>Saldo da Conta: <span id="saldo">R$ 5000,00</span></p>
+            <div class="separar">
+                <button onclick="separarDinheiro()">Separar Dinheiro</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="linha">
+        <div class="pix">
+            <img src="img/pix.png" style="width:50px;height:50px;">
+            <p onclick="realizarPix()">PIX</p>
+        </div>
+
+        <div class="tranferir">
+            <img src="img/deposito.png" style="width:50px;height:50px;">
+            <p onclick="transferirDinheiro()">Transferir</p>
+        </div>
+    </div>
+
+    <conteiner class="icones2">
+        <div>
+            <img src="img/caixa.png" style="width:50px;height:50px;">
+        </div>
+        <div>
+            <img src="img/recibo.png" style="width:50px;height:50px;">
+        </div>
+        <div>
+            <img src="img/smartphone.png" style="width:50px;height:50px;">
+        </div>
+        <div>
+            <img src="img/bitcoin.png" style="width:50px;height:50px;">
+        </div>
+    </conteiner>
+
+    <footer>
+        &copy; 2023 Meu Nubank
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
